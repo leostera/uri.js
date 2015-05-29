@@ -1,0 +1,22 @@
+{
+  "name": "uri.js",
+  "version": "1.0.0",
+  "description": "> hacked in...let me check...about 2 hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ostera/uri.js"
+  },
+  "author": "Leandro Ostera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostera/uri.js/issues"
+  },
+  "homepage": "https://github.com/ostera/uri.js",
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}

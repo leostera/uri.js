@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 function cleanUpPath(path) {
   return path.replace(/^\//, "").replace(/\/$/, "");
 }
@@ -82,3 +84,7 @@ var pattern = "/:version/api/:collecton/:id";
 var uri = "/6/api/listings/3?sort=desc&limit=10";
 
 var result = parse(uri, pattern);
+
+console.log(result);
+
+module.exports = parse;
