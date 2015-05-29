@@ -72,10 +72,10 @@ function parse(rawUrl, pattern) {
   var params = pathToObject(url.path, pattern);
   var query = queryToObject(url.query);
   return params.concat(query).filter(function (i) {
-    return i !== undefined;
-  }).reduce(function (params, param) {
-    return _.extend(params, param);
-  }, {});
+      return i !== undefined;
+    }).reduce(function (params, param) {
+      return _.extend(params, param);
+    }, {});
 }
 
 var pattern = "/:version/api/:collecton/:id";
